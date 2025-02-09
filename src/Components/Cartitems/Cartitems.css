@@ -1,0 +1,158 @@
+/* General styling */
+
+  
+  /* Main format for cart items */
+  .cartitems-format-main {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px; /* Reduce the gap between columns */
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Format for each cart item */
+  .cartitem-format {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for product icon */
+  .carticon-product-icon {
+    height: 80px;
+  }
+  
+  /* Styling for quantity container */
+  .quantity-container {
+    display: flex;
+    
+    align-items: center;
+    padding-right: -50px;
+  }
+  
+  /* Styling for quantity button */
+  .cartitems-quantity {
+    width: 50px;
+    height: 30px;
+    padding: 5px 10px; /* Add padding to improve button appearance */
+    margin-top: 5px; /* Add margin to separate from the text */
+    font-size: 16px; /* Reduce font size for better fit */
+    border: none;
+    background-color: #f0f0f0; /* Add background color */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .cartitems-quantity:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  
+  /* Styling for remove icon */
+  .carticondremove-icon {
+    width: 20px; /* Increase width for better visibility */
+    margin-left: 10px; /* Add margin to separate from the text */
+    cursor: pointer;
+  }
+  
+  /* Add spacing between cart items */
+  .cartitem-format + .cartitem-format {
+    margin-top: 15px;
+  }
+  
+  /* Add border between cart items */
+  .cartitem-format {
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  /* Hide horizontal rule for the last cart item */
+  .cartitem-format:last-child {
+    border-bottom: none;
+  }
+  .a{display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .b{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 80px;
+  }
+  .c{
+    padding-left: 220px;
+  }
+  .d{
+    padding-left: 220px;
+  }
+  .e{
+    padding-left: 180px;
+  }
+  .cartitems-doun
+  {
+    display: flex;
+    margin:100px 0px;
+
+  }
+  .cartitems-total
+  {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 200px;
+    gap: 40px;
+  }
+  .cartitems-total-item
+  {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+  }
+.cartitems-total button{
+    width: 262px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.cartitems-promocode
+{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cartitems-promocode p{
+    color: #555;
+}
+.cartitem-promobox
+{
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px ;
+    height: 58px;
+    background:#eaeaea ;
+}
+.cartitem-promobox input
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+}
+.cartitem-promobox button
+{
+    width: 110px;
+    height: 58px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
